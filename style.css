@@ -83,7 +83,7 @@ body{
 }
 
 .order{
-    margin: 1em ;
+    margin: 2em ;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: #fff;
@@ -192,7 +192,9 @@ body{
     .link a{
         font-size: 15px;
       } 
-      
+      .container {
+        margin-bottom: 20px;
+      }
 
 }
   @media(max-width: 690px) {
@@ -237,6 +239,9 @@ body{
       .btn {
         margin:4rem;
        }
+       .container {
+        margin-bottom: 20px;
+      }
     }
     @media(max-width: 690px) {
         .orderContainer{
